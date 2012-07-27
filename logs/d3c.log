@@ -1,0 +1,3479 @@
+----------------------- data/bupa.arff
+  ----------------------- 2012-04-10 20:23
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  Logistic is finished!
+  Logistic runs 1s
+
+  SMO is finished!
+  SMO runs 0s
+
+  IB1 is finished!
+  IB1 runs 0s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 0s
+
+  DecisionStump is finished!
+  DecisionStump runs 0s
+
+  SPegasos is finished!
+  SPegasos runs 1s
+
+  OneR is finished!
+  OneR runs 0s
+
+  JRip is finished!
+  JRip runs 1s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  RandomForest is finished!
+  RandomForest runs 1s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 1s
+
+  SimpleCart is finished!
+  SimpleCart runs 1s
+
+  J48 is finished!
+  J48 runs 1s
+
+  DecisionTable is finished!
+  DecisionTable runs 1s
+
+  LibSVM is finished!
+  LibSVM runs 2s
+
+  FT is finished!
+  FT runs 2s
+
+  Logistic's correct rate:			0.6753623188405797
+  SPegasos's correct rate:			0.663768115942029
+  SMO's correct rate:			0.5797101449275363
+  VotedPerceptron's correct rate:			0.6115942028985507
+  IB1's correct rate:			0.5884057971014494
+  OneR's correct rate:			0.5420289855072464
+  ConjunctiveRule's correct rate:			0.5478260869565217
+  DecisionTable's correct rate:			0.5681159420289855
+  JRip's correct rate:			0.6376811594202898
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.6376811594202898
+  NaiveBayes's correct rate:			0.518840579710145
+  RandomTree's correct rate:			0.6231884057971014
+  FT's correct rate:			0.655072463768116
+  RandomForest's correct rate:			0.663768115942029
+  DecisionStump's correct rate:			0.5913043478260869
+  J48's correct rate:			0.6521739130434783
+  LibSVM's correct rate:			0.6260869565217391
+  
+ classifier results:
+  [
+  VotedPerceptron,
+  J48,
+  IB1,
+  FT,
+  RandomForest,
+  OneR,
+  Logistic,
+  RandomTree,
+  NaiveBayes,
+  LibSVM,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [ConjunctiveRule, IB1, ]
+  Circle:1	best precision now:0.71304	target precision:0.95000
+  [ConjunctiveRule, IB1, ]
+  Circle:2	best precision now:0.71304	target precision:0.90000
+  [ConjunctiveRule, IB1, JRip, ]
+  Circle:3	best precision now:0.72464	target precision:0.85000
+  [ConjunctiveRule, IB1, JRip, ]
+  Circle:4	best precision now:0.72464	target precision:0.80000
+  [ConjunctiveRule, IB1, JRip, OneR, ]
+  Circle:5	best precision now:0.72754	target precision:0.75000
+  [ConjunctiveRule, IB1, JRip, OneR, ]
+  Circle:6	best precision now:0.72754	target precision:0.70000
+  === Confusion Matrix ===
+
+   a   b   <-- classified as
+  95  50 |   a = 1
+  44 156 |   b = 2
+
+  === Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.655     0.22       0.683     0.655     0.669      0.718    1
+                 0.78      0.345      0.757     0.78      0.768      0.718    2
+Weighted Avg.    0.728     0.292      0.726     0.728     0.727      0.718
+
+  ----------------------- data/bupa.arff
+  ----------------------- 2012-04-10 20:24
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  SMO is finished!
+  SMO runs 0s
+
+  IB1 is finished!
+  IB1 runs 0s
+
+  JRip is finished!
+  JRip runs 0s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 0s
+
+  DecisionStump is finished!
+  DecisionStump runs 0s
+
+  Logistic is finished!
+  Logistic runs 1s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 0s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 1s
+
+  ZeroR is finished!
+  ZeroR runs 1s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  RandomForest is finished!
+  RandomForest runs 1s
+
+  SPegasos is finished!
+  SPegasos runs 1s
+
+  DecisionTable is finished!
+  DecisionTable runs 1s
+
+  FT is finished!
+  FT runs 2s
+
+  LibSVM is finished!
+  LibSVM runs 2s
+
+  OneR is finished!
+  OneR runs 1s
+
+  J48 is finished!
+  J48 runs 1s
+
+  SimpleCart is finished!
+  SimpleCart runs 1s
+
+  Logistic's correct rate:			0.6695652173913044
+  SPegasos's correct rate:			0.6782608695652175
+  SMO's correct rate:			0.5768115942028986
+  VotedPerceptron's correct rate:			0.6
+  IB1's correct rate:			0.6
+  OneR's correct rate:			0.5884057971014494
+  ConjunctiveRule's correct rate:			0.5826086956521739
+  DecisionTable's correct rate:			0.5884057971014494
+  JRip's correct rate:			0.6231884057971014
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.6115942028985507
+  NaiveBayes's correct rate:			0.5391304347826087
+  RandomTree's correct rate:			0.6
+  FT's correct rate:			0.7159420289855072
+  RandomForest's correct rate:			0.6753623188405797
+  DecisionStump's correct rate:			0.5884057971014494
+  J48's correct rate:			0.6057971014492753
+  LibSVM's correct rate:			0.6202898550724638
+  
+ classifier results:
+  [
+  VotedPerceptron,
+  DecisionTable,
+  IB1,
+  FT,
+  RandomForest,
+  OneR,
+  SPegasos,
+  JRip,
+  NaiveBayes,
+  LibSVM,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [VotedPerceptron, ]
+  Circle:1	best precision now:0.71594	target precision:0.95000
+  [VotedPerceptron, ]
+  Circle:2	best precision now:0.71594	target precision:0.90000
+  [VotedPerceptron, ]
+  Circle:3	best precision now:0.71594	target precision:0.85000
+  [VotedPerceptron, ]
+  Circle:4	best precision now:0.71594	target precision:0.80000
+  [VotedPerceptron, ]
+  Circle:5	best precision now:0.71594	target precision:0.75000
+  [VotedPerceptron, ]
+  Circle:6	best precision now:0.71594	target precision:0.70000
+  
+  
+  ----------------------- data/bupa.arff
+  ----------------------- 2012-04-10 20:25
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  SMO is finished!
+  SMO runs 0s
+
+  IB1 is finished!
+  IB1 runs 0s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 0s
+
+  JRip is finished!
+  JRip runs 0s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 0s
+
+  DecisionStump is finished!
+  DecisionStump runs 0s
+
+  Logistic is finished!
+  Logistic runs 1s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 1s
+
+  DecisionTable is finished!
+  DecisionTable runs 1s
+
+  SimpleCart is finished!
+  SimpleCart runs 1s
+
+  FT is finished!
+  FT runs 2s
+
+  J48 is finished!
+  J48 runs 1s
+
+  SPegasos is finished!
+  SPegasos runs 1s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  RandomForest is finished!
+  RandomForest runs 1s
+
+  OneR is finished!
+  OneR runs 0s
+
+  LibSVM is finished!
+  LibSVM runs 2s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  Logistic's correct rate:			0.6695652173913044
+  SPegasos's correct rate:			0.6405797101449275
+  SMO's correct rate:			0.5768115942028986
+  VotedPerceptron's correct rate:			0.6115942028985507
+  IB1's correct rate:			0.6202898550724638
+  OneR's correct rate:			0.5681159420289855
+  ConjunctiveRule's correct rate:			0.5739130434782609
+  DecisionTable's correct rate:			0.6057971014492753
+  JRip's correct rate:			0.6463768115942029
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.6579710144927536
+  NaiveBayes's correct rate:			0.5420289855072464
+  RandomTree's correct rate:			0.663768115942029
+  FT's correct rate:			0.6898550724637681
+  RandomForest's correct rate:			0.6927536231884057
+  DecisionStump's correct rate:			0.6028985507246376
+  J48's correct rate:			0.672463768115942
+  LibSVM's correct rate:			0.655072463768116
+  
+ classifier results:
+  [
+  JRip,
+  SimpleCart,
+  IB1,
+  FT,
+  RandomForest,
+  OneR,
+  SPegasos,
+  J48,
+  NaiveBayes,
+  LibSVM,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [IB1, VotedPerceptron, SPegasos, ]
+  Circle:1	best precision now:0.71884	target precision:0.95000
+  [IB1, VotedPerceptron, SPegasos, Logistic, ]
+  Circle:2	best precision now:0.75072	target precision:0.90000
+  [IB1, VotedPerceptron, SPegasos, Logistic, ]
+  Circle:3	best precision now:0.75072	target precision:0.85000
+  [IB1, VotedPerceptron, SPegasos, Logistic, ]
+  Circle:4	best precision now:0.75072	target precision:0.80000
+  [IB1, VotedPerceptron, SPegasos, Logistic, ]
+  Circle:5	best precision now:0.75072	target precision:0.75000
+  === Confusion Matrix ===
+
+   a   b   <-- classified as
+  91  54 |   a = 1
+  32 168 |   b = 2
+
+  === Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.628     0.16       0.74      0.628     0.679      0.734    1
+                 0.84      0.372      0.757     0.84      0.796      0.734    2
+Weighted Avg.    0.751     0.283      0.75      0.751     0.747      0.734
+
+  ----------------------- data/bupa.arff
+  ----------------------- 2012-04-10 20:29
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  SMO is finished!
+  SMO runs 0s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 1s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  RandomForest is finished!
+  RandomForest runs 1s
+
+  Logistic is finished!
+  Logistic runs 1s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 1s
+
+  SimpleCart is finished!
+  SimpleCart runs 1s
+
+  DecisionStump is finished!
+  DecisionStump runs 0s
+
+  IB1 is finished!
+  IB1 runs 1s
+
+  JRip is finished!
+  JRip runs 2s
+
+  J48 is finished!
+  J48 runs 1s
+
+  SPegasos is finished!
+  SPegasos runs 3s
+
+  DecisionTable is finished!
+  DecisionTable runs 4s
+
+  FT is finished!
+  FT runs 4s
+
+  OneR is finished!
+  OneR runs 2s
+
+  LibSVM is finished!
+  LibSVM runs 4s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 2s
+
+  Logistic's correct rate:			0.6869565217391305
+  SPegasos's correct rate:			0.6811594202898551
+  SMO's correct rate:			0.5855072463768116
+  VotedPerceptron's correct rate:			0.6144927536231883
+  IB1's correct rate:			0.6666666666666667
+  OneR's correct rate:			0.5710144927536231
+  ConjunctiveRule's correct rate:			0.5217391304347826
+  DecisionTable's correct rate:			0.5710144927536231
+  JRip's correct rate:			0.6492753623188405
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.6492753623188405
+  NaiveBayes's correct rate:			0.5623188405797102
+  RandomTree's correct rate:			0.6231884057971014
+  FT's correct rate:			0.7246376811594203
+  RandomForest's correct rate:			0.6840579710144927
+  DecisionStump's correct rate:			0.5855072463768116
+  J48's correct rate:			0.6347826086956522
+  LibSVM's correct rate:			0.672463768115942
+  
+ classifier results:
+  [
+  SMO,
+  JRip,
+  IB1,
+  FT,
+  RandomForest,
+  OneR,
+  SPegasos,
+  RandomTree,
+  NaiveBayes,
+  LibSVM,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [VotedPerceptron, ]
+  Circle:1	best precision now:0.72464	target precision:0.95000
+  [VotedPerceptron, ]
+  Circle:2	best precision now:0.72464	target precision:0.90000
+  [VotedPerceptron, ]
+  Circle:3	best precision now:0.72464	target precision:0.85000
+  [VotedPerceptron, ]
+  Circle:4	best precision now:0.72464	target precision:0.80000
+  [VotedPerceptron, ]
+  Circle:5	best precision now:0.72464	target precision:0.75000
+  [VotedPerceptron, ]
+  Circle:6	best precision now:0.72464	target precision:0.70000
+  
+  
+  ----------------------- data/bupa.arff
+  ----------------------- 2012-04-10 20:29
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  SPegasos is finished!
+  SPegasos runs 0s
+
+  DecisionStump is finished!
+  DecisionStump runs 0s
+
+  Logistic is finished!
+  Logistic runs 1s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 1s
+
+  OneR is finished!
+  OneR runs 1s
+
+  DecisionTable is finished!
+  DecisionTable runs 1s
+
+  ZeroR is finished!
+  ZeroR runs 1s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 1s
+
+  RandomForest is finished!
+  RandomForest runs 1s
+
+  SMO is finished!
+  SMO runs 1s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 1s
+
+  SimpleCart is finished!
+  SimpleCart runs 1s
+
+  FT is finished!
+  FT runs 2s
+
+  LibSVM is finished!
+  LibSVM runs 2s
+
+  IB1 is finished!
+  IB1 runs 1s
+
+  RandomTree is finished!
+  RandomTree runs 1s
+
+  JRip is finished!
+  JRip runs 1s
+
+  J48 is finished!
+  J48 runs 1s
+
+  Logistic's correct rate:			0.6782608695652175
+  SPegasos's correct rate:			0.6695652173913044
+  SMO's correct rate:			0.5797101449275363
+  VotedPerceptron's correct rate:			0.6463768115942029
+  IB1's correct rate:			0.6086956521739131
+  OneR's correct rate:			0.5246376811594202
+  ConjunctiveRule's correct rate:			0.5652173913043479
+  DecisionTable's correct rate:			0.5681159420289855
+  JRip's correct rate:			0.6492753623188405
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.655072463768116
+  NaiveBayes's correct rate:			0.5623188405797102
+  RandomTree's correct rate:			0.5971014492753624
+  FT's correct rate:			0.6927536231884057
+  RandomForest's correct rate:			0.6782608695652175
+  DecisionStump's correct rate:			0.5826086956521739
+  J48's correct rate:			0.6521739130434783
+  LibSVM's correct rate:			0.6608695652173913
+  
+ classifier results:
+  [
+  VotedPerceptron,
+  SimpleCart,
+  IB1,
+  FT,
+  RandomForest,
+  OneR,
+  SPegasos,
+  RandomTree,
+  NaiveBayes,
+  LibSVM,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [VotedPerceptron, DecisionTable, ]
+  Circle:1	best precision now:0.69565	target precision:0.95000
+  [VotedPerceptron, DecisionTable, ]
+  Circle:2	best precision now:0.69565	target precision:0.90000
+  [VotedPerceptron, DecisionTable, ]
+  Circle:3	best precision now:0.69565	target precision:0.85000
+  [VotedPerceptron, DecisionTable, ]
+  Circle:4	best precision now:0.69565	target precision:0.80000
+  [VotedPerceptron, DecisionTable, ]
+  Circle:5	best precision now:0.69565	target precision:0.75000
+  [VotedPerceptron, DecisionTable, ]
+  Circle:6	best precision now:0.69565	target precision:0.70000
+  === Confusion Matrix ===
+
+   a   b   <-- classified as
+ 103  42 |   a = 1
+  59 141 |   b = 2
+
+  === Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.71      0.295      0.636     0.71      0.671      0.708    1
+                 0.705     0.29       0.77      0.705     0.736      0.708    2
+Weighted Avg.    0.707     0.292      0.714     0.707     0.709      0.708
+
+  ----------------------- data/bupa.arff
+  ----------------------- 2012-04-11 20:47
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  Logistic is finished!
+  Logistic runs 1s
+
+  SMO is finished!
+  SMO runs 1s
+
+  IB1 is finished!
+  IB1 runs 0s
+
+  IB10 is finished!
+  IB10 runs 0s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 0s
+
+  JRip is finished!
+  JRip runs 1s
+
+  SimpleCart is finished!
+  SimpleCart runs 1s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  RandomForest is finished!
+  RandomForest runs 1s
+
+  LibSVM is finished!
+  LibSVM runs 1s
+
+  SPegasos is finished!
+  SPegasos runs 2s
+
+  IB5 is finished!
+  IB5 runs 1s
+
+  DecisionTable is finished!
+  DecisionTable runs 2s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 1s
+
+  DecisionStump is finished!
+  DecisionStump runs 1s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 1s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  J48 is finished!
+  J48 runs 2s
+
+  OneR is finished!
+  OneR runs 0s
+
+  FT is finished!
+  FT runs 2s
+
+  Logistic's correct rate:			0.6927536231884057
+  SPegasos's correct rate:			0.6782608695652175
+  SMO's correct rate:			0.5797101449275363
+  VotedPerceptron's correct rate:			0.6173913043478261
+  IB1's correct rate:			0.6115942028985507
+  IB5's correct rate:			0.6
+  IB10's correct rate:			0.6144927536231883
+  OneR's correct rate:			0.6
+  ConjunctiveRule's correct rate:			0.5594202898550724
+  DecisionTable's correct rate:			0.5710144927536231
+  JRip's correct rate:			0.6869565217391305
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.6492753623188405
+  NaiveBayes's correct rate:			0.5507246376811594
+  RandomTree's correct rate:			0.655072463768116
+  FT's correct rate:			0.7014492753623188
+  RandomForest's correct rate:			0.6811594202898551
+  DecisionStump's correct rate:			0.5797101449275363
+  J48's correct rate:			0.6
+  LibSVM's correct rate:			0.6173913043478261
+  
+ classifier results:
+  [
+  NaiveBayes,
+  Logistic,
+  FT,
+  JRip,
+  RandomTree,
+  SPegasos,
+  IB10,
+  SimpleCart,
+  RandomForest,
+  VotedPerceptron,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [SMO, VotedPerceptron, ]
+  Circle:1	best precision now:0.73043	target precision:0.95000
+  [SMO, VotedPerceptron, ]
+  Circle:2	best precision now:0.73043	target precision:0.90000
+  [SMO, VotedPerceptron, ]
+  Circle:3	best precision now:0.73043	target precision:0.85000
+  [SMO, VotedPerceptron, ]
+  Circle:4	best precision now:0.73043	target precision:0.80000
+  [SMO, VotedPerceptron, IB5, ]
+  Circle:5	best precision now:0.74783	target precision:0.75000
+  [SMO, VotedPerceptron, IB5, ]
+  Circle:6	best precision now:0.74783	target precision:0.70000
+  === Confusion Matrix ===
+
+   a   b   <-- classified as
+  94  51 |   a = 1
+  36 164 |   b = 2
+
+  === Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.648     0.18       0.723     0.648     0.684      0.734    1
+                 0.82      0.352      0.763     0.82      0.79       0.734    2
+Weighted Avg.    0.748     0.28       0.746     0.748     0.746      0.734
+
+  ----------------------- data/bupa.arff
+  ----------------------- 2012-04-11 20:48
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  SMO is finished!
+  SMO runs 1s
+
+  IB1 is finished!
+  IB1 runs 0s
+
+  IB10 is finished!
+  IB10 runs 0s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 0s
+
+  JRip is finished!
+  JRip runs 0s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  Logistic is finished!
+  Logistic runs 1s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 1s
+
+  OneR is finished!
+  OneR runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 1s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 1s
+
+  RandomForest is finished!
+  RandomForest runs 1s
+
+  J48 is finished!
+  J48 runs 1s
+
+  SPegasos is finished!
+  SPegasos runs 2s
+
+  DecisionTable is finished!
+  DecisionTable runs 2s
+
+  FT is finished!
+  FT runs 2s
+
+  LibSVM is finished!
+  LibSVM runs 2s
+
+  IB5 is finished!
+  IB5 runs 0s
+
+  DecisionStump is finished!
+  DecisionStump runs 1s
+
+  SimpleCart is finished!
+  SimpleCart runs 1s
+
+  Logistic's correct rate:			0.6666666666666667
+  SPegasos's correct rate:			0.6115942028985507
+  SMO's correct rate:			0.5623188405797102
+  VotedPerceptron's correct rate:			0.6753623188405797
+  IB1's correct rate:			0.6347826086956522
+  IB5's correct rate:			0.5971014492753624
+  IB10's correct rate:			0.6115942028985507
+  OneR's correct rate:			0.5565217391304348
+  ConjunctiveRule's correct rate:			0.5449275362318841
+  DecisionTable's correct rate:			0.5913043478260869
+  JRip's correct rate:			0.6144927536231883
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.5884057971014494
+  NaiveBayes's correct rate:			0.5391304347826087
+  RandomTree's correct rate:			0.6260869565217391
+  FT's correct rate:			0.6985507246376812
+  RandomForest's correct rate:			0.6782608695652175
+  DecisionStump's correct rate:			0.5159420289855072
+  J48's correct rate:			0.6057971014492753
+  LibSVM's correct rate:			0.655072463768116
+  
+ classifier results:
+  [
+  NaiveBayes,
+  Logistic,
+  FT,
+  IB1,
+  J48,
+  SPegasos,
+  LibSVM,
+  RandomTree,
+  RandomForest,
+  VotedPerceptron,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [SMO, SPegasos, OneR, Logistic, ]
+  Circle:1	best precision now:0.73623	target precision:0.95000
+  [SMO, SPegasos, OneR, Logistic, ]
+  Circle:2	best precision now:0.73623	target precision:0.90000
+  [SMO, SPegasos, OneR, Logistic, ]
+  Circle:3	best precision now:0.73623	target precision:0.85000
+  [SMO, SPegasos, OneR, Logistic, ]
+  Circle:4	best precision now:0.73623	target precision:0.80000
+  [SMO, SPegasos, OneR, Logistic, ]
+  Circle:5	best precision now:0.73623	target precision:0.75000
+  [SMO, SPegasos, OneR, Logistic, ]
+  Circle:6	best precision now:0.73623	target precision:0.70000
+  === Confusion Matrix ===
+
+   a   b   <-- classified as
+  95  50 |   a = 1
+  41 159 |   b = 2
+
+  === Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.655     0.205      0.699     0.655     0.676      0.725    1
+                 0.795     0.345      0.761     0.795     0.778      0.725    2
+Weighted Avg.    0.736     0.286      0.735     0.736     0.735      0.725
+
+  ----------------------- data/bupa.arff
+  ----------------------- 2012-04-11 20:49
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  SPegasos is removed!
+  SMO is finished!
+  SMO runs 1s
+
+  IB1 is finished!
+  IB1 runs 1s
+
+  IB10 is finished!
+  IB10 runs 1s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 1s
+
+  JRip is finished!
+  JRip runs 0s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  DecisionStump is finished!
+  DecisionStump runs 0s
+
+  SPegasos is finished!
+  SPegasos runs 0s
+
+  IB5 is finished!
+  IB5 runs 1s
+
+  DecisionTable is finished!
+  DecisionTable runs 1s
+
+  SimpleCart is finished!
+  SimpleCart runs 2s
+
+  FT is finished!
+  FT runs 1s
+
+  J48 is finished!
+  J48 runs 0s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 1s
+
+  ZeroR is finished!
+  ZeroR runs 1s
+
+  RandomForest is finished!
+  RandomForest runs 1s
+
+  OneR is finished!
+  OneR runs 0s
+
+  LibSVM is finished!
+  LibSVM runs 2s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 1s
+
+  SPegasos's correct rate:			0.6869565217391305
+  SMO's correct rate:			0.5797101449275363
+  VotedPerceptron's correct rate:			0.6289855072463768
+  IB1's correct rate:			0.6347826086956522
+  IB5's correct rate:			0.6144927536231883
+  IB10's correct rate:			0.5826086956521739
+  OneR's correct rate:			0.5565217391304348
+  DecisionTable's correct rate:			0.6
+  JRip's correct rate:			0.6289855072463768
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.6231884057971014
+  NaiveBayes's correct rate:			0.5304347826086957
+  RandomTree's correct rate:			0.6173913043478261
+  FT's correct rate:			0.7072463768115942
+  RandomForest's correct rate:			0.6579710144927536
+  DecisionStump's correct rate:			0.5942028985507246
+  J48's correct rate:			0.6579710144927536
+  LibSVM's correct rate:			0.6202898550724638
+  ----------------------- data/bupa.arff
+  ----------------------- 2012-04-11 20:51
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  SPegasos is removed!
+  SMO is finished!
+  SMO runs 1s
+
+  IB1 is finished!
+  IB1 runs 0s
+
+  OneR is finished!
+  OneR runs 1s
+
+  DecisionTable is finished!
+  DecisionTable runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 1s
+
+  DecisionStump is finished!
+  DecisionStump runs 0s
+
+  SPegasos is finished!
+  SPegasos runs 1s
+
+  IB5 is finished!
+  IB5 runs 1s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 0s
+
+  SimpleCart is finished!
+  SimpleCart runs 1s
+
+  FT is finished!
+  FT runs 2s
+
+  J48 is finished!
+  J48 runs 1s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 0s
+
+  JRip is finished!
+  JRip runs 1s
+
+  RandomForest is finished!
+  RandomForest runs 1s
+
+  IB10 is finished!
+  IB10 runs 1s
+
+  LibSVM is finished!
+  LibSVM runs 2s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  SPegasos's correct rate:			0.7014492753623188
+  SMO's correct rate:			0.5710144927536231
+  VotedPerceptron's correct rate:			0.6
+  IB1's correct rate:			0.6260869565217391
+  IB5's correct rate:			0.6086956521739131
+  IB10's correct rate:			0.5913043478260869
+  OneR's correct rate:			0.6
+  ConjunctiveRule's correct rate:			0.527536231884058
+  DecisionTable's correct rate:			0.5971014492753624
+  JRip's correct rate:			0.6695652173913044
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.655072463768116
+  NaiveBayes's correct rate:			0.5536231884057972
+  RandomTree's correct rate:			0.655072463768116
+  FT's correct rate:			0.6985507246376812
+  RandomForest's correct rate:			0.6869565217391305
+  DecisionStump's correct rate:			0.5826086956521739
+  J48's correct rate:			0.663768115942029
+  LibSVM's correct rate:			0.655072463768116
+  
+ classifier results:
+  [
+  DecisionTable,
+  IB10,
+  DecisionStump,
+  ConjunctiveRule,
+  Logistic,
+  FT,
+  SimpleCart,
+  VotedPerceptron,
+  RandomTree,
+  ZeroR,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [IB1, ]
+  Circle:1	best precision now:0.70145	target precision:0.95000
+  [IB1, ]
+  Circle:2	best precision now:0.70145	target precision:0.90000
+  [IB1, ]
+  Circle:3	best precision now:0.70145	target precision:0.85000
+  [IB1, ]
+  Circle:4	best precision now:0.70145	target precision:0.80000
+  [IB1, ]
+  Circle:5	best precision now:0.70145	target precision:0.75000
+  [IB1, ]
+  Circle:6	best precision now:0.70145	target precision:0.70000
+  
+  
+  ----------------------- data/bupa.arff
+  ----------------------- 2012-04-11 20:51
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  Logistic is finished!
+  Logistic runs 0s
+
+  SMO is finished!
+  SMO runs 1s
+
+  IB1 is finished!
+  IB1 runs 0s
+
+  IB10 is finished!
+  IB10 runs 0s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 0s
+
+  DecisionStump is finished!
+  DecisionStump runs 1s
+
+  SPegasos is finished!
+  SPegasos runs 0s
+
+  IB5 is finished!
+  IB5 runs 0s
+
+  DecisionTable is finished!
+  DecisionTable runs 0s
+
+  SimpleCart is finished!
+  SimpleCart runs 2s
+
+  FT is finished!
+  FT runs 2s
+
+  J48 is finished!
+  J48 runs 1s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 0s
+
+  JRip is finished!
+  JRip runs 1s
+
+  RandomForest is finished!
+  RandomForest runs 1s
+
+  OneR is finished!
+  OneR runs 0s
+
+  LibSVM is finished!
+  LibSVM runs 2s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  Logistic's correct rate:			0.6782608695652175
+  SPegasos's correct rate:			0.6202898550724638
+  SMO's correct rate:			0.5739130434782609
+  VotedPerceptron's correct rate:			0.6289855072463768
+  IB1's correct rate:			0.6
+  IB5's correct rate:			0.6028985507246376
+  IB10's correct rate:			0.6028985507246376
+  OneR's correct rate:			0.5391304347826087
+  ConjunctiveRule's correct rate:			0.5797101449275363
+  DecisionTable's correct rate:			0.5507246376811594
+  JRip's correct rate:			0.6434782608695653
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.6492753623188405
+  NaiveBayes's correct rate:			0.5623188405797102
+  RandomTree's correct rate:			0.655072463768116
+  FT's correct rate:			0.6811594202898551
+  RandomForest's correct rate:			0.7101449275362319
+  DecisionStump's correct rate:			0.5304347826086957
+  J48's correct rate:			0.6521739130434783
+  LibSVM's correct rate:			0.6144927536231883
+  
+ classifier results:
+  [
+  NaiveBayes,
+  Logistic,
+  FT,
+  ConjunctiveRule,
+  J48,
+  SPegasos,
+  IB5,
+  RandomTree,
+  RandomForest,
+  VotedPerceptron,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [ConjunctiveRule, ]
+  Circle:1	best precision now:0.71014	target precision:0.95000
+  [ConjunctiveRule, ]
+  Circle:2	best precision now:0.71014	target precision:0.90000
+  [ConjunctiveRule, ]
+  Circle:3	best precision now:0.71014	target precision:0.85000
+  [ConjunctiveRule, ]
+  Circle:4	best precision now:0.71014	target precision:0.80000
+  [ConjunctiveRule, ]
+  Circle:5	best precision now:0.71014	target precision:0.75000
+  [ConjunctiveRule, ]
+  Circle:6	best precision now:0.71014	target precision:0.70000
+  
+  
+  ----------------------- data/bupa.arff
+  ----------------------- 2012-04-11 20:52
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  SPegasos is removed!
+  VotedPerceptron is removed!
+  IB5 is removed!
+  IB10 is finished!
+  IB10 runs 0s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 0s
+
+  JRip is finished!
+  JRip runs 1s
+
+  SimpleCart is finished!
+  SimpleCart runs 1s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  RandomForest is finished!
+  RandomForest runs 1s
+
+  SPegasos is finished!
+  SPegasos runs 0s
+
+  IB5 is finished!
+  IB5 runs 0s
+
+  DecisionTable is finished!
+  DecisionTable runs 0s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 1s
+
+  DecisionStump is finished!
+  DecisionStump runs 1s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  J48 is finished!
+  J48 runs 1s
+
+  OneR is finished!
+  OneR runs 1s
+
+  LibSVM is finished!
+  LibSVM runs 2s
+
+  FT is finished!
+  FT runs 2s
+
+  SPegasos's correct rate:			0.6898550724637681
+  VotedPerceptron's correct rate:			0.6521739130434783
+  IB5's correct rate:			0.6231884057971014
+  IB10's correct rate:			0.6289855072463768
+  OneR's correct rate:			0.6057971014492753
+  ConjunctiveRule's correct rate:			0.5913043478260869
+  DecisionTable's correct rate:			0.5681159420289855
+  JRip's correct rate:			0.6753623188405797
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.6463768115942029
+  NaiveBayes's correct rate:			0.5681159420289855
+  RandomTree's correct rate:			0.6463768115942029
+  FT's correct rate:			0.7014492753623188
+  RandomForest's correct rate:			0.7043478260869565
+  DecisionStump's correct rate:			0.5710144927536231
+  J48's correct rate:			0.6753623188405797
+  LibSVM's correct rate:			0.6260869565217391
+  
+ classifier results:
+  [
+  JRip,
+  OneR,
+  RandomForest,
+  SimpleCart,
+  IB1,
+  NaiveBayes,
+  IB10,
+  FT,
+  DecisionTable,
+  VotedPerceptron,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [IB5, ]
+  Circle:1	best precision now:0.70435	target precision:0.95000
+  [IB5, ]
+  Circle:2	best precision now:0.70435	target precision:0.90000
+  [IB5, ]
+  Circle:3	best precision now:0.70435	target precision:0.85000
+  [IB5, ]
+  Circle:4	best precision now:0.70435	target precision:0.80000
+  [IB5, ]
+  Circle:5	best precision now:0.70435	target precision:0.75000
+  [IB5, ]
+  Circle:6	best precision now:0.70435	target precision:0.70000
+  
+  
+  ----------------------- data/bupa.arff
+  ----------------------- 2012-04-11 20:52
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  Logistic is finished!
+  Logistic runs 59s
+
+  SMO is finished!
+  SMO runs 58s
+
+  IB1 is finished!
+  IB1 runs 59s
+
+  IB10 is finished!
+  IB10 runs 0s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 58s
+
+  JRip is finished!
+  JRip runs 58s
+
+  SimpleCart is finished!
+  SimpleCart runs 0s
+
+  RandomTree is finished!
+  RandomTree runs 58s
+
+  RandomForest is finished!
+  RandomForest runs 59s
+
+  J48 is finished!
+  J48 runs 58s
+
+  SPegasos is finished!
+  SPegasos runs 59s
+
+  IB5 is finished!
+  IB5 runs 0s
+
+  DecisionTable is finished!
+  DecisionTable runs 0s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 0s
+
+  DecisionStump is finished!
+  DecisionStump runs 59s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 58s
+
+  ZeroR is finished!
+  ZeroR runs 58s
+
+  LibSVM is finished!
+  LibSVM runs 1s
+
+  OneR is finished!
+  OneR runs 58s
+
+  FT is finished!
+  FT runs 0s
+
+  Logistic's correct rate:			0.663768115942029
+  SPegasos's correct rate:			0.6666666666666667
+  SMO's correct rate:			0.5797101449275363
+  VotedPerceptron's correct rate:			0.5884057971014494
+  IB1's correct rate:			0.6057971014492753
+  IB5's correct rate:			0.6289855072463768
+  IB10's correct rate:			0.6173913043478261
+  OneR's correct rate:			0.5710144927536231
+  ConjunctiveRule's correct rate:			0.5507246376811594
+  DecisionTable's correct rate:			0.5913043478260869
+  JRip's correct rate:			0.672463768115942
+  ZeroR's correct rate:			0.5797101449275363
+  SimpleCart's correct rate:			0.6492753623188405
+  NaiveBayes's correct rate:			0.5565217391304348
+  RandomTree's correct rate:			0.6057971014492753
+  FT's correct rate:			0.7188405797101449
+  RandomForest's correct rate:			0.6753623188405797
+  DecisionStump's correct rate:			0.5913043478260869
+  J48's correct rate:			0.6579710144927536
+  LibSVM's correct rate:			0.6260869565217391
+  
+ classifier results:
+  [
+  IB5,
+  Logistic,
+  FT,
+  DecisionTable,
+  J48,
+  SPegasos,
+  RandomTree,
+  JRip,
+  RandomForest,
+  LibSVM,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [SMO, ]
+  Circle:1	best precision now:0.71884	target precision:0.95000
+  [SMO, ]
+  Circle:2	best precision now:0.71884	target precision:0.90000
+  [SMO, ]
+  Circle:3	best precision now:0.71884	target precision:0.85000
+  [SMO, ]
+  Circle:4	best precision now:0.71884	target precision:0.80000
+  [SMO, ]
+  Circle:5	best precision now:0.71884	target precision:0.75000
+  [SMO, ]
+  Circle:6	best precision now:0.71884	target precision:0.70000
+  
+  
+  ----------------------- data/3762no_2302yes.arff
+  ----------------------- 2012-04-11 20:53
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  OneR is finished!
+  OneR runs 1s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 4s
+
+  DecisionStump is finished!
+  DecisionStump runs 3s
+
+  RandomTree is finished!
+  RandomTree runs 4s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 13s
+
+  J48 is finished!
+  J48 runs 15s
+
+  Logistic is finished!
+  Logistic runs 16s
+
+  SPegasos is finished!
+  SPegasos runs 19s
+
+  VotedPerceptron is removed!
+  IB5 is removed!
+  DecisionTable is removed!
+  SimpleCart is removed!
+  RandomForest is removed!
+  ----------------------- data/3762no_2302yes.arff
+  ----------------------- 2012-04-11 20:54
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  OneR is finished!
+  OneR runs 3s
+
+  ZeroR is finished!
+  ZeroR runs 2s
+
+  DecisionStump is finished!
+  DecisionStump runs 4s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 5s
+
+  RandomTree is finished!
+  RandomTree runs 5s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 9s
+
+  Logistic is finished!
+  Logistic runs 13s
+
+  J48 is finished!
+  J48 runs 17s
+
+  RandomForest is finished!
+  RandomForest runs 18s
+
+  IB10 is finished!
+  IB10 runs 28s
+
+  JRip is finished!
+  JRip runs 28s
+
+  SPegasos is finished!
+  SPegasos runs 33s
+
+  IB5 is finished!
+  IB5 runs 35s
+
+  SimpleCart is finished!
+  SimpleCart runs 36s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 40s
+
+  DecisionTable is finished!
+  DecisionTable runs 41s
+
+  SMO is finished!
+  SMO runs 46s
+
+  FT is finished!
+  FT runs 53s
+
+  IB1 is finished!
+  IB1 runs 5s
+
+  ----------------------- data/3762no_2302yes.arff
+  ----------------------- 2012-04-11 21:00
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  OneR is finished!
+  OneR runs 2s
+
+  ZeroR is finished!
+  ZeroR runs 2s
+
+  RandomTree is finished!
+  RandomTree runs 2s
+
+  DecisionStump is finished!
+  DecisionStump runs 3s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 4s
+
+  J48 is finished!
+  J48 runs 10s
+
+  Logistic is finished!
+  Logistic runs 20s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 20s
+
+  SMO is removed!
+  IB1 is removed!
+  IB10 is removed!
+  JRip is removed!
+  FT is removed!
+  LibSVM is removed!
+  ----------------------- data/3762no_2302yes.arff
+  ----------------------- 2012-04-11 21:01
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  OneR is finished!
+  OneR runs 59s
+
+  ZeroR is finished!
+  ZeroR runs 58s
+
+  RandomTree is finished!
+  RandomTree runs 1s
+
+  DecisionStump is finished!
+  DecisionStump runs 1s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 3s
+
+  J48 is finished!
+  J48 runs 10s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 11s
+
+  Logistic is finished!
+  Logistic runs 15s
+
+  SMO is removed!
+  IB1 is removed!
+  IB10 is removed!
+  JRip is removed!
+  FT is removed!
+  ----------------------- data/3762no_2302yes.arff
+  ----------------------- 2012-04-11 21:03
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  OneR is finished!
+  OneR runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 59s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 3s
+
+  DecisionStump is finished!
+  DecisionStump runs 2s
+
+  RandomTree is finished!
+  RandomTree runs 3s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 10s
+
+  J48 is finished!
+  J48 runs 12s
+
+  Logistic is finished!
+  Logistic runs 13s
+
+  SMO is removed!
+  IB1 is removed!
+  IB10 is removed!
+  JRip is removed!
+  FT is removed!
+  LibSVM is removed!
+  ----------------------- data/german.arff
+  ----------------------- 2012-04-13 16:35
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  SMO is finished!
+  SMO runs 3s
+
+  IB5 is finished!
+  IB5 runs 2s
+
+  OneR is finished!
+  OneR runs 0s
+
+  JRip is finished!
+  JRip runs 3s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 2s
+
+  DecisionStump is finished!
+  DecisionStump runs 0s
+
+  Logistic is finished!
+  Logistic runs 5s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 2s
+
+  IB10 is finished!
+  IB10 runs 3s
+
+  DecisionTable is finished!
+  DecisionTable runs 5s
+
+  SimpleCart is finished!
+  SimpleCart runs 5s
+
+  FT is finished!
+  FT runs 5s
+
+  J48 is finished!
+  J48 runs 3s
+
+  SPegasos is finished!
+  SPegasos runs 4s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 0s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  IB1 is finished!
+  IB1 runs 4s
+
+  RandomForest is finished!
+  RandomForest runs 4s
+
+  ZeroR is finished!
+  ZeroR runs 1s
+
+  LibSVM is finished!
+  LibSVM runs 8s
+
+  Logistic's correct rate:			0.771
+  SPegasos's correct rate:			0.759
+  SMO's correct rate:			0.782
+  VotedPerceptron's correct rate:			0.7150000000000001
+  IB1's correct rate:			0.6759999999999999
+  IB5's correct rate:			0.7090000000000001
+  IB10's correct rate:			0.714
+  OneR's correct rate:			0.7030000000000001
+  ConjunctiveRule's correct rate:			0.7
+  DecisionTable's correct rate:			0.7130000000000001
+  JRip's correct rate:			0.721
+  ZeroR's correct rate:			0.7
+  SimpleCart's correct rate:			0.751
+  NaiveBayes's correct rate:			0.757
+  RandomTree's correct rate:			0.675
+  FT's correct rate:			0.738
+  RandomForest's correct rate:			0.746
+  DecisionStump's correct rate:			0.7
+  J48's correct rate:			0.724
+  LibSVM's correct rate:			0.714
+  
+ classifier results:
+  [
+  NaiveBayes,
+  SMO,
+  FT,
+  SimpleCart,
+  RandomTree,
+  SPegasos,
+  LibSVM,
+  J48,
+  RandomForest,
+  VotedPerceptron,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [SPegasos, ]
+  Circle:1	best precision now:0.78200	target precision:0.95000
+  [SPegasos, ]
+  Circle:2	best precision now:0.78200	target precision:0.90000
+  [SPegasos, ]
+  Circle:3	best precision now:0.78200	target precision:0.85000
+  [SPegasos, ]
+  Circle:4	best precision now:0.78200	target precision:0.80000
+  [SPegasos, ]
+  Circle:5	best precision now:0.78200	target precision:0.75000
+  
+  
+  ----------------------- data/german.arff
+  ----------------------- 2012-04-13 16:36
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  OneR is finished!
+  OneR runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  RandomTree is finished!
+  RandomTree runs 1s
+
+  DecisionStump is finished!
+  DecisionStump runs 2s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 2s
+
+  IB10 is finished!
+  IB10 runs 3s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 2s
+
+  J48 is finished!
+  J48 runs 1s
+
+  Logistic is finished!
+  Logistic runs 4s
+
+  IB1 is finished!
+  IB1 runs 3s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 2s
+
+  RandomForest is finished!
+  RandomForest runs 4s
+
+  SPegasos is finished!
+  SPegasos runs 5s
+
+  IB5 is finished!
+  IB5 runs 3s
+
+  JRip is finished!
+  JRip runs 4s
+
+  FT is finished!
+  FT runs 5s
+
+  SMO is finished!
+  SMO runs 5s
+
+  SimpleCart is finished!
+  SimpleCart runs 5s
+
+  DecisionTable is finished!
+  DecisionTable runs 5s
+
+  LibSVM is finished!
+  LibSVM runs 8s
+
+  Logistic's correct rate:			0.769
+  SPegasos's correct rate:			0.743
+  SMO's correct rate:			0.767
+  VotedPerceptron's correct rate:			0.716
+  IB1's correct rate:			0.659
+  IB5's correct rate:			0.7010000000000001
+  IB10's correct rate:			0.722
+  OneR's correct rate:			0.696
+  ConjunctiveRule's correct rate:			0.7
+  DecisionTable's correct rate:			0.737
+  JRip's correct rate:			0.745
+  ZeroR's correct rate:			0.7
+  SimpleCart's correct rate:			0.735
+  NaiveBayes's correct rate:			0.757
+  RandomTree's correct rate:			0.6799999999999999
+  FT's correct rate:			0.721
+  RandomForest's correct rate:			0.746
+  DecisionStump's correct rate:			0.7
+  J48's correct rate:			0.724
+  LibSVM's correct rate:			0.722
+  
+ classifier results:
+  [
+  NaiveBayes,
+  Logistic,
+  FT,
+  DecisionTable,
+  J48,
+  SPegasos,
+  LibSVM,
+  JRip,
+  RandomTree,
+  RandomForest,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [SPegasos, ]
+  Circle:1	best precision now:0.76900	target precision:0.95000
+  [SPegasos, ]
+  Circle:2	best precision now:0.76900	target precision:0.90000
+  [SPegasos, ]
+  Circle:3	best precision now:0.76900	target precision:0.85000
+  [SPegasos, ]
+  Circle:4	best precision now:0.76900	target precision:0.80000
+  [SPegasos, ]
+  Circle:5	best precision now:0.76900	target precision:0.75000
+  
+  
+  ----------------------- data/german.arff
+  ----------------------- 2012-04-13 16:36
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  SPegasos is finished!
+  SPegasos runs 1s
+
+  OneR is finished!
+  OneR runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 1s
+
+  DecisionStump is finished!
+  DecisionStump runs 0s
+
+  Logistic is finished!
+  Logistic runs 3s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 3s
+
+  IB10 is finished!
+  IB10 runs 4s
+
+  JRip is finished!
+  JRip runs 3s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 2s
+
+  RandomForest is finished!
+  RandomForest runs 4s
+
+  SMO is finished!
+  SMO runs 2s
+
+  IB5 is finished!
+  IB5 runs 4s
+
+  SimpleCart is finished!
+  SimpleCart runs 5s
+
+  J48 is finished!
+  J48 runs 3s
+
+  IB1 is finished!
+  IB1 runs 5s
+
+  DecisionTable is finished!
+  DecisionTable runs 5s
+
+  FT is finished!
+  FT runs 6s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 1s
+
+  RandomTree is finished!
+  RandomTree runs 1s
+
+  LibSVM is finished!
+  LibSVM runs 9s
+
+  Logistic's correct rate:			0.762
+  SPegasos's correct rate:			0.763
+  SMO's correct rate:			0.765
+  VotedPerceptron's correct rate:			0.7030000000000001
+  IB1's correct rate:			0.673
+  IB5's correct rate:			0.716
+  IB10's correct rate:			0.719
+  OneR's correct rate:			0.7010000000000001
+  ConjunctiveRule's correct rate:			0.7
+  DecisionTable's correct rate:			0.7130000000000001
+  JRip's correct rate:			0.71
+  ZeroR's correct rate:			0.7
+  SimpleCart's correct rate:			0.742
+  NaiveBayes's correct rate:			0.76
+  RandomTree's correct rate:			0.688
+  FT's correct rate:			0.7130000000000001
+  RandomForest's correct rate:			0.725
+  DecisionStump's correct rate:			0.7
+  J48's correct rate:			0.716
+  LibSVM's correct rate:			0.7050000000000001
+  
+ classifier results:
+  [
+  NaiveBayes,
+  SMO,
+  FT,
+  DecisionTable,
+  J48,
+  SPegasos,
+  LibSVM,
+  SimpleCart,
+  RandomForest,
+  IB10,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [SPegasos, OneR, ]
+  Circle:1	best precision now:0.78000	target precision:0.95000
+  [SPegasos, OneR, ]
+  Circle:2	best precision now:0.78000	target precision:0.90000
+  [SPegasos, OneR, ]
+  Circle:3	best precision now:0.78000	target precision:0.85000
+  [SPegasos, OneR, ]
+  Circle:4	best precision now:0.78000	target precision:0.80000
+  [SPegasos, OneR, ]
+  Circle:5	best precision now:0.78000	target precision:0.75000
+  === Confusion Matrix ===
+
+   a   b   <-- classified as
+ 614  86 |   a = 1
+ 134 166 |   b = 2
+
+  === Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.877     0.447      0.821     0.877     0.848      0.715    1
+                 0.553     0.123      0.659     0.553     0.601      0.715    2
+Weighted Avg.    0.78      0.35       0.772     0.78      0.774      0.715
+
+  ----------------------- data/german.arff
+  ----------------------- 2012-04-13 16:38
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  VotedPerceptron is finished!
+  VotedPerceptron runs 1s
+
+  OneR is finished!
+  OneR runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 0s
+
+  DecisionStump is finished!
+  DecisionStump runs 0s
+
+  SPegasos is finished!
+  SPegasos runs 3s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 2s
+
+  JRip is finished!
+  JRip runs 2s
+
+  RandomTree is finished!
+  RandomTree runs 2s
+
+  J48 is finished!
+  J48 runs 1s
+
+  Logistic is finished!
+  Logistic runs 3s
+
+  IB1 is finished!
+  IB1 runs 3s
+
+  IB10 is finished!
+  IB10 runs 4s
+
+  SMO is finished!
+  SMO runs 2s
+
+  RandomForest is finished!
+  RandomForest runs 5s
+
+  IB5 is finished!
+  IB5 runs 4s
+
+  SimpleCart is finished!
+  SimpleCart runs 5s
+
+  DecisionTable is finished!
+  DecisionTable runs 5s
+
+  FT is finished!
+  FT runs 5s
+
+  LibSVM is finished!
+  LibSVM runs 8s
+
+  Logistic's correct rate:			0.759
+  SPegasos's correct rate:			0.757
+  SMO's correct rate:			0.765
+  VotedPerceptron's correct rate:			0.706
+  IB1's correct rate:			0.669
+  IB5's correct rate:			0.7
+  IB10's correct rate:			0.71
+  OneR's correct rate:			0.6970000000000001
+  ConjunctiveRule's correct rate:			0.7
+  DecisionTable's correct rate:			0.712
+  JRip's correct rate:			0.732
+  ZeroR's correct rate:			0.7
+  SimpleCart's correct rate:			0.742
+  NaiveBayes's correct rate:			0.753
+  RandomTree's correct rate:			0.6759999999999999
+  FT's correct rate:			0.7070000000000001
+  RandomForest's correct rate:			0.738
+  DecisionStump's correct rate:			0.7
+  J48's correct rate:			0.7090000000000001
+  LibSVM's correct rate:			0.716
+  
+ classifier results:
+  [
+  NaiveBayes,
+  SMO,
+  FT,
+  IB5,
+  J48,
+  SPegasos,
+  LibSVM,
+  SimpleCart,
+  RandomForest,
+  DecisionTable,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [SPegasos, IB5, Logistic, OneR, ]
+  Circle:1	best precision now:0.77400	target precision:0.95000
+  [SPegasos, IB5, Logistic, OneR, ]
+  Circle:2	best precision now:0.77400	target precision:0.90000
+  [SPegasos, IB5, Logistic, OneR, ConjunctiveRule, ]
+  Circle:3	best precision now:0.77600	target precision:0.85000
+  [SPegasos, IB5, Logistic, OneR, ConjunctiveRule, IB1, ]
+  Circle:4	best precision now:0.77700	target precision:0.80000
+  [SPegasos, IB5, Logistic, OneR, ConjunctiveRule, IB1, ]
+  Circle:5	best precision now:0.77700	target precision:0.75000
+  === Confusion Matrix ===
+
+   a   b   <-- classified as
+ 627  73 |   a = 1
+ 150 150 |   b = 2
+
+  === Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.896     0.5        0.807     0.896     0.849      0.698    1
+                 0.5       0.104      0.673     0.5       0.574      0.698    2
+Weighted Avg.    0.777     0.381      0.767     0.777     0.766      0.698
+
+  ----------------------- data/german.arff
+  ----------------------- 2012-04-13 16:39
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 1s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  RandomTree is finished!
+  RandomTree runs 1s
+
+  SPegasos is finished!
+  SPegasos runs 2s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 1s
+
+  OneR is finished!
+  OneR runs 2s
+
+  JRip is finished!
+  JRip runs 2s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 4s
+
+  DecisionStump is finished!
+  DecisionStump runs 2s
+
+  Logistic is finished!
+  Logistic runs 3s
+
+  IB1 is finished!
+  IB1 runs 2s
+
+  IB10 is finished!
+  IB10 runs 3s
+
+  SimpleCart is finished!
+  SimpleCart runs 4s
+
+  RandomForest is finished!
+  RandomForest runs 4s
+
+  SMO is finished!
+  SMO runs 4s
+
+  DecisionTable is finished!
+  DecisionTable runs 5s
+
+  J48 is finished!
+  J48 runs 3s
+
+  IB5 is finished!
+  IB5 runs 4s
+
+  FT is finished!
+  FT runs 5s
+
+  LibSVM is finished!
+  LibSVM runs 8s
+
+  Logistic's correct rate:			0.77
+  SPegasos's correct rate:			0.755
+  SMO's correct rate:			0.776
+  VotedPerceptron's correct rate:			0.7110000000000001
+  IB1's correct rate:			0.671
+  IB5's correct rate:			0.7090000000000001
+  IB10's correct rate:			0.712
+  OneR's correct rate:			0.7
+  ConjunctiveRule's correct rate:			0.7
+  DecisionTable's correct rate:			0.735
+  JRip's correct rate:			0.727
+  ZeroR's correct rate:			0.7
+  SimpleCart's correct rate:			0.73
+  NaiveBayes's correct rate:			0.746
+  RandomTree's correct rate:			0.704
+  FT's correct rate:			0.708
+  RandomForest's correct rate:			0.731
+  DecisionStump's correct rate:			0.7
+  J48's correct rate:			0.7150000000000001
+  LibSVM's correct rate:			0.7150000000000001
+  
+ classifier results:
+  [
+  NaiveBayes,
+  SMO,
+  FT,
+  DecisionTable,
+  RandomTree,
+  SPegasos,
+  LibSVM,
+  SimpleCart,
+  RandomForest,
+  IB10,
+  ]
+
+  ----------------------- data/german.arff
+  ----------------------- 2012-04-13 16:40
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  VotedPerceptron is finished!
+  VotedPerceptron runs 0s
+
+  OneR is finished!
+  OneR runs 59s
+
+  ZeroR is finished!
+  ZeroR runs 59s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 59s
+
+  DecisionStump is finished!
+  DecisionStump runs 59s
+
+  SMO is finished!
+  SMO runs 2s
+
+  IB10 is finished!
+  IB10 runs 1s
+
+  JRip is finished!
+  JRip runs 1s
+
+  RandomTree is finished!
+  RandomTree runs 59s
+
+  J48 is finished!
+  J48 runs 0s
+
+  Logistic is finished!
+  Logistic runs 2s
+
+  IB1 is finished!
+  IB1 runs 4s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 1s
+
+  SimpleCart is finished!
+  SimpleCart runs 3s
+
+  RandomForest is finished!
+  RandomForest runs 3s
+
+  SPegasos is finished!
+  SPegasos runs 3s
+
+  DecisionTable is finished!
+  DecisionTable runs 4s
+
+  IB5 is finished!
+  IB5 runs 2s
+
+  LibSVM is finished!
+  LibSVM runs 6s
+
+  FT is finished!
+  FT runs 4s
+
+  Logistic's correct rate:			0.763
+  SPegasos's correct rate:			0.758
+  SMO's correct rate:			0.762
+  VotedPerceptron's correct rate:			0.706
+  IB1's correct rate:			0.6599999999999999
+  IB5's correct rate:			0.7110000000000001
+  IB10's correct rate:			0.7130000000000001
+  OneR's correct rate:			0.7050000000000001
+  ConjunctiveRule's correct rate:			0.7
+  DecisionTable's correct rate:			0.718
+  JRip's correct rate:			0.732
+  ZeroR's correct rate:			0.7
+  SimpleCart's correct rate:			0.733
+  NaiveBayes's correct rate:			0.753
+  RandomTree's correct rate:			0.681
+  FT's correct rate:			0.72
+  RandomForest's correct rate:			0.736
+  DecisionStump's correct rate:			0.7
+  J48's correct rate:			0.719
+  LibSVM's correct rate:			0.723
+  
+ classifier results:
+  [
+  NaiveBayes,
+  Logistic,
+  FT,
+  RandomTree,
+  J48,
+  SPegasos,
+  LibSVM,
+  SimpleCart,
+  RandomForest,
+  IB10,
+  ]
+
+  === Confusion Matrix ===
+
+   a   b   <-- classified as
+ 628  72 |   a = 1
+ 151 149 |   b = 2
+
+  === Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.897     0.503      0.806     0.897     0.849      0.697    1
+                 0.497     0.103      0.674     0.497     0.572      0.697    2
+Weighted Avg.    0.777     0.383      0.767     0.777     0.766      0.697
+
+  ----------------------- data/german.arff
+  ----------------------- 2012-04-13 16:41
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  OneR is finished!
+  OneR runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 1s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 1s
+
+  RandomTree is finished!
+  RandomTree runs 1s
+
+  DecisionStump is finished!
+  DecisionStump runs 1s
+
+  SMO is finished!
+  SMO runs 2s
+
+  JRip is finished!
+  JRip runs 2s
+
+  J48 is finished!
+  J48 runs 1s
+
+  IB10 is finished!
+  IB10 runs 3s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 3s
+
+  Logistic is finished!
+  Logistic runs 4s
+
+  RandomForest is finished!
+  RandomForest runs 4s
+
+  SPegasos is finished!
+  SPegasos runs 5s
+
+  IB5 is finished!
+  IB5 runs 5s
+
+  SimpleCart is finished!
+  SimpleCart runs 5s
+
+  IB1 is finished!
+  IB1 runs 5s
+
+  FT is finished!
+  FT runs 5s
+
+  DecisionTable is finished!
+  DecisionTable runs 6s
+
+  LibSVM is finished!
+  LibSVM runs 8s
+
+  Logistic's correct rate:			0.76
+  SPegasos's correct rate:			0.753
+  SMO's correct rate:			0.764
+  VotedPerceptron's correct rate:			0.702
+  IB1's correct rate:			0.665
+  IB5's correct rate:			0.7030000000000001
+  IB10's correct rate:			0.714
+  OneR's correct rate:			0.7070000000000001
+  ConjunctiveRule's correct rate:			0.7
+  DecisionTable's correct rate:			0.727
+  JRip's correct rate:			0.735
+  ZeroR's correct rate:			0.7
+  SimpleCart's correct rate:			0.741
+  NaiveBayes's correct rate:			0.757
+  RandomTree's correct rate:			0.657
+  FT's correct rate:			0.732
+  RandomForest's correct rate:			0.747
+  DecisionStump's correct rate:			0.7
+  J48's correct rate:			0.722
+  LibSVM's correct rate:			0.727
+  
+ classifier results:
+  [
+  NaiveBayes,
+  SMO,
+  FT,
+  JRip,
+  IB5,
+  SPegasos,
+  LibSVM,
+  SimpleCart,
+  RandomTree,
+  RandomForest,
+  ]
+
+  === Confusion Matrix ===
+
+   a   b   <-- classified as
+ 638  62 |   a = 1
+ 155 145 |   b = 2
+
+  === Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.911     0.517      0.805     0.911     0.855      0.697    1
+                 0.483     0.089      0.7       0.483     0.572      0.697    2
+Weighted Avg.    0.783     0.388      0.773     0.783     0.77       0.697
+
+  ----------------------- data/german.arff
+  ----------------------- 2012-04-22 14:49
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  OneR is finished!
+  OneR runs 0s
+
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  RandomTree is finished!
+  RandomTree runs 0s
+
+  DecisionStump is finished!
+  DecisionStump runs 0s
+
+  Logistic is finished!
+  Logistic runs 1s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 2s
+
+  IB5 is finished!
+  IB5 runs 2s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 3s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 3s
+
+  J48 is finished!
+  J48 runs 3s
+
+  SPegasos is finished!
+  SPegasos runs 1s
+
+  IB1 is finished!
+  IB1 runs 3s
+
+  JRip is finished!
+  JRip runs 4s
+
+  RandomForest is finished!
+  RandomForest runs 4s
+
+  SMO is finished!
+  SMO runs 3s
+
+  DecisionTable is finished!
+  DecisionTable runs 5s
+
+  FT is finished!
+  FT runs 5s
+
+  IB10 is finished!
+  IB10 runs 3s
+
+  SimpleCart is finished!
+  SimpleCart runs 4s
+
+  LibSVM is finished!
+  LibSVM runs 7s
+
+  Logistic's correct rate:			0.763
+  SPegasos's correct rate:			0.751
+  SMO's correct rate:			0.765
+  VotedPerceptron's correct rate:			0.7150000000000001
+  IB1's correct rate:			0.673
+  IB5's correct rate:			0.7030000000000001
+  IB10's correct rate:			0.71
+  OneR's correct rate:			0.6890000000000001
+  ConjunctiveRule's correct rate:			0.7
+  DecisionTable's correct rate:			0.719
+  JRip's correct rate:			0.73
+  ZeroR's correct rate:			0.7
+  SimpleCart's correct rate:			0.733
+  NaiveBayes's correct rate:			0.763
+  RandomTree's correct rate:			0.652
+  FT's correct rate:			0.738
+  RandomForest's correct rate:			0.754
+  DecisionStump's correct rate:			0.7
+  J48's correct rate:			0.728
+  LibSVM's correct rate:			0.718
+  
+ classifier results:
+  [
+  NaiveBayes,
+  SMO,
+  FT,
+  SimpleCart,
+  J48,
+  SPegasos,
+  LibSVM,
+  IB1,
+  RandomForest,
+  VotedPerceptron,
+  ]
+
+  Circle:0	best precision now:0.00000	target precision:1.00000
+  [SPegasos, Logistic, VotedPerceptron, IB1, ]
+  Circle:1	best precision now:0.77600	target precision:0.95000
+  [SPegasos, Logistic, VotedPerceptron, IB1, ]
+  Circle:2	best precision now:0.77600	target precision:0.90000
+  [SPegasos, Logistic, VotedPerceptron, IB1, ]
+  Circle:3	best precision now:0.77600	target precision:0.85000
+  [SPegasos, Logistic, VotedPerceptron, IB1, ConjunctiveRule, ]
+  Circle:4	best precision now:0.77800	target precision:0.80000
+  [SPegasos, Logistic, VotedPerceptron, IB1, ConjunctiveRule, ]
+  Circle:5	best precision now:0.77800	target precision:0.75000
+  === Confusion Matrix ===
+
+   a   b   <-- classified as
+ 640  60 |   a = 1
+ 162 138 |   b = 2
+
+  === Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.914     0.54       0.798     0.914     0.852      0.687    1
+                 0.46      0.086      0.697     0.46      0.554      0.687    2
+Weighted Avg.    0.778     0.404      0.768     0.778     0.763      0.687
+
+  ----------------------- data/3762no_2302yes.arff
+  ----------------------- 2012-04-22 14:51
+  classifierName:Logistic
+  options:
+  classifierName:SPegasos
+  options:
+  classifierName:SMO
+  options:
+  classifierName:VotedPerceptron
+  options:
+  classifierName:IB1
+  options:
+  classifierName:IB5
+  options:
+  classifierName:IB10
+  options:
+  classifierName:OneR
+  options:
+  classifierName:ConjunctiveRule
+  options:
+  classifierName:DecisionTable
+  options:
+  classifierName:JRip
+  options:
+  classifierName:ZeroR
+  options:
+  classifierName:SimpleCart
+  options:
+  classifierName:NaiveBayes
+  options:
+  classifierName:RandomTree
+  options:
+  classifierName:FT
+  options:
+  classifierName:RandomForest
+  options:
+  classifierName:DecisionStump
+  options:
+  classifierName:J48
+  options:
+  classifierName:LibSVM
+  options:-S 0 -K 2 -D 3 -G 0.0078125 -R 0.0 -N 0.5 -M 40.0 -C 8192.0 -E 0.0010 -P  0.1 -B
+  ZeroR is finished!
+  ZeroR runs 0s
+
+  RandomTree is finished!
+  RandomTree runs 1s
+
+  OneR is finished!
+  OneR runs 1s
+
+  DecisionStump is finished!
+  DecisionStump runs 3s
+
+  NaiveBayes is finished!
+  NaiveBayes runs 4s
+
+  ConjunctiveRule is finished!
+  ConjunctiveRule runs 10s
+
+  J48 is finished!
+  J48 runs 10s
+
+  Logistic is finished!
+  Logistic runs 15s
+
+  RandomForest is finished!
+  RandomForest runs 23s
+
+  SPegasos is finished!
+  SPegasos runs 25s
+
+  IB10 is finished!
+  IB10 runs 25s
+
+  IB5 is finished!
+  IB5 runs 27s
+
+  VotedPerceptron is finished!
+  VotedPerceptron runs 32s
+
+  JRip is finished!
+  JRip runs 36s
+
+  DecisionTable is finished!
+  DecisionTable runs 36s
+
+  SimpleCart is finished!
+  SimpleCart runs 38s
+
+  FT is finished!
+  FT runs 41s
+
+  SMO is finished!
+  SMO runs 42s
+
+  IB1 is finished!
+  IB1 runs 55s
+
+  
